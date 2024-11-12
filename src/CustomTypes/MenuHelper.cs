@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace src
+namespace src.CustomTypes
 {
     public static class MenuHelper
     {
@@ -15,7 +10,7 @@ namespace src
         /// <param name="callback"></param>
         /// <param name="options"></param>
         /// <returns>The <see cref="int"/> index selected from <paramref name="options"/></returns>
-        public static int DisplayMenu(Func<string, int> callback, params string[] options)
+        public static int DisplayMenu(Func<string, int> callback, params string[] options) /*Since we're not alloed to use System.Console outside of Program.cs we made this to reuse a menu logic*/
         {
             var index = callback.Invoke(String.Join("\n", options));
             return (index > options.Length || index < 1) ? -1 : index;
