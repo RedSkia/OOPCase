@@ -6,8 +6,8 @@ namespace src.CustomTypes
 {
     public static class DataStore
     {
-        public static List<Subject> _subjects = new();
-        public static IReadOnlyList<Subject> Subjects => _subjects;
+        public static List<ISubject> _subjects = new();
+        public static IReadOnlyList<ISubject> Subjects => _subjects;
         private static readonly List<string> _students = new()
         {
             "Andreas Lorenzen",
@@ -34,7 +34,7 @@ namespace src.CustomTypes
         };
 
         static DataStore() => CreateData();
-        private static Student[] GetRandomStudents(int limit)
+        private static IPerson[] GetRandomStudents(int limit)
         {
             limit = Math.Clamp(limit, 0, _students.Count - 1);
             Random rand = new();
@@ -57,14 +57,14 @@ namespace src.CustomTypes
             Niels Olesen
             Peter Erik Bergmann
             */
-            _subjects = new List<Subject>
+            _subjects = new List<ISubject>
             {
-                new("Basic Programming",        new() { Name = "Henrik Vincents",           Birthday = new(1995,10,20) }, GetRandomStudents(99)),
-                new("OOP",                      new() { Name = "Niels Olesen",              Birthday = new(1995,10,20) }, GetRandomStudents(14)),
-                new("Computer Technology",      new() { Name = "Michael Gilbert Hansen",    Birthday = new(1995,10,20) }, GetRandomStudents(9)),
-                new("Server Security",          new() { Name = "Peter Erik Bergmann",       Birthday = new(1995,10,20) }, GetRandomStudents(16)),
-                new("Database Programming",     new() { Name = "Peter Erik Bergmann",       Birthday = new(1995,10,20) }, GetRandomStudents(12)),
-                new("Client Side Programming",  new() { Name = "Michael Gilbert Hansen",    Birthday = new(1995,10,20) }, GetRandomStudents(18)),
+                new Subject(){ Name = "Basic Programming",      Teacher = new(){ Name = "Henrik Vincents",          Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
+                new Subject(){ Name = "OOP",                    Teacher = new(){ Name = "Niels Olesen",             Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
+                new Subject(){ Name = "Computer Technology",    Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
+                new Subject(){ Name = "Server Security",        Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
+                new Subject(){ Name = "Database Programming",   Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
+                new Subject(){ Name = "ClientSide Programming", Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new(1995, 10, 20) }, Students = GetRandomStudents(99) },
             };
         }
         public enum SearchType : byte
@@ -73,7 +73,7 @@ namespace src.CustomTypes
             Teacher = 2,
             Student = 3,
         }
-        public static Subject[] Search(SearchType search, string value = "") => search switch
+        public static ISubject[] Search(SearchType search, string value = "") => search switch
         {
             SearchType.Subject => Subjects.Where(subject => subject.Name.Contains(value, StringComparison.OrdinalIgnoreCase)).ToArray(),
             SearchType.Teacher => Subjects.Where(subject => subject.Teacher.Name.Contains(value, StringComparison.OrdinalIgnoreCase)).ToArray(),
