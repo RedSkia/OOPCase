@@ -1,18 +1,14 @@
-﻿using src.CustomTypes.DTOs;
-using System;
-using System.Buffers;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http.Headers;
 
 namespace src.CustomTypes
 {
     public static class DataStore
     {
-        private static List<Subject> _subjects = new();
-        
+        public static List<Subject> _subjects = new();
         public static IReadOnlyList<Subject> Subjects => _subjects;
-        private static readonly HashSet<string> _students = new()
+        private static readonly List<string> _students = new()
         {
             "Andreas Lorenzen",
             "Azad Akdeniz",
@@ -36,29 +32,22 @@ namespace src.CustomTypes
             "Thobias Svarter Hammarkvist",
             "Yosef Kasas"
         };
-        static DataStore()
-        {
-            CreateData();
-        }
+
+        static DataStore() => CreateData();
         private static Student[] GetRandomStudents(int limit)
         {
             limit = Math.Clamp(limit, 0, _students.Count - 1);
-            var buffer = ArrayPool<Student>.Shared.Rent(_students.Count - 1);
             Random rand = new();
-            try
-            {
-                _students.Select(name => new Student() { Name = name, Birthday = new(rand.Next(1990, DateTime.Now.Year-1), rand.Next(12), rand.Next(365)) });
-                rand.Shuffle(buffer);
 
-                return buffer
-                    .Where(student => student is not null)
-                    .Take(limit)
-                    .ToArray();
-            }
-            finally
+            var students = _students
+            .Select(name => new Student
             {
-                ArrayPool<Student>.Shared.Return(buffer);
-            }
+                Name = name,
+                Birthday = new DateOnly(rand.Next(1990, DateTime.Now.Year - 10), rand.Next(1, 12), rand.Next(1, 25))
+            }).ToArray(); 
+
+            rand.Shuffle(students);
+            return students.Take(limit).ToArray();
         }
         private static void CreateData()
         {
@@ -84,12 +73,12 @@ namespace src.CustomTypes
             Teacher = 2,
             Student = 3,
         }
-        public static IEnumerable<Subject> Search(SearchType search, string value) => search switch
+        public static Subject[] Search(SearchType search, string value = "") => search switch
         {
-            SearchType.Subject => Subjects.Where(subject => subject.Name.Contains(value, StringComparison.OrdinalIgnoreCase)),
-            SearchType.Teacher => Subjects.Where(subject => subject.Teacher.Name.Contains(value, StringComparison.OrdinalIgnoreCase)),
-            SearchType.Student => Subjects.Where(subject => subject.Students.Any(student => student.Name.Contains(value, StringComparison.OrdinalIgnoreCase))),
-            _ => Enumerable.Empty<Subject>()
+            SearchType.Subject => Subjects.Where(subject => subject.Name.Contains(value, StringComparison.OrdinalIgnoreCase)).ToArray(),
+            SearchType.Teacher => Subjects.Where(subject => subject.Teacher.Name.Contains(value, StringComparison.OrdinalIgnoreCase)).ToArray(),
+            SearchType.Student => Subjects.Where(subject => subject.Students.Any(student => student.Name.Contains(value, StringComparison.OrdinalIgnoreCase))).ToArray(),
+            _ => []
         };
     }
 }
