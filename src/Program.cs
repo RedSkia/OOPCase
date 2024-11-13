@@ -59,13 +59,13 @@ namespace src
         {
             Console.Clear();
             Console.ResetColor();
-            ISubject[] subjects = DataStore.Search(SearchType.Subject);
+            ISubject[] subjects = DataStore.Search(SearchType.Subject).OrderBy(x => x.Name).ToArray();
             int index = MenuHelper.DisplayMenu((line) =>
             {
                 Console.WriteLine(line);
                 Console.Write("Input: ");
                 return int.TryParse(Console.ReadLine(), out int index) ? index : -1;
-            }, subjects.Select(subject => subject.Name).Distinct().Order().ToArray());
+            }, subjects.Select(subject => subject.Name).Order().ToArray());
             Console.Clear();
             if (index == -1)
             {
@@ -76,7 +76,7 @@ namespace src
             Console.WriteLine($"Subject: {subject.Name}");
             Console.WriteLine($"Teacher: {subject.Teacher.Name}");
             Console.WriteLine($"Total Students: {subject.Students.Count}");
-            foreach (IPerson student in subject.Students.Order())
+            foreach (IPerson student in subject.Students.OrderBy(x => x.Name))
             {
                 if(student.Birthday <= DateOnly.FromDateTime(DateTime.Now).AddYears(-20)) Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"\t{student.Name}");
@@ -104,7 +104,7 @@ namespace src
             var studentName = subjects.First().Students.Where(student => student.Name.Contains(input, StringComparison.OrdinalIgnoreCase)).First().Name;
             Console.WriteLine($"Subjects assigned to student ({studentName})");
             Console.WriteLine("".PadRight(Console.WindowWidth, '='));
-            foreach (ISubject subject in subjects)
+            foreach (ISubject subject in subjects.OrderBy(x => x.Name))
             {
                 Console.WriteLine($"\tSubject: {subject.Name}");
                 Console.WriteLine($"\tTeacher: {subject.Teacher.Name}");
@@ -115,7 +115,7 @@ namespace src
         {
             Console.Clear();
             Console.ResetColor();
-            ISubject[] subjects = DataStore.Search(SearchType.Teacher).ToArray();
+            ISubject[] subjects = DataStore.Search(SearchType.Teacher).DistinctBy(x => x.Teacher.Name).OrderBy(x => x.Teacher.Name).ToArray();
             int index = MenuHelper.DisplayMenu((line) =>
             {
                 Console.WriteLine(line);
@@ -136,7 +136,7 @@ namespace src
             {
                 Console.WriteLine($"Subject: {subject.Name}");
                 Console.WriteLine($"Total Students: {subject.Students.Count}");
-                foreach (IPerson student in subject.Students)
+                foreach (IPerson student in subject.Students.OrderBy(x => x.Name))
                 {
                     if (student.Birthday <= DateOnly.FromDateTime(DateTime.Now).AddYears(-20)) Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"\t{student.Name}");
