@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Marcus\\Desktop\\OOPCase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|d:\\marcus\\desktop\\oopcase\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|d:\\marcus\\desktop\\oopcase\\src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IPerson.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\IPerson.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\IPerson.cs",
@@ -62,8 +62,7 @@
               "RelativeToolTip": "src\\CustomTypes\\DTOs\\IPerson.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:03:26.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:03:26.553Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "src\\CustomTypes\\DataStore.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DataStore.cs",
               "RelativeToolTip": "src\\CustomTypes\\DataStore.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwv0sAAAAmAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAawEsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:48:05.962Z",
               "EditorCaption": ""
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Teacher.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Teacher.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\Teacher.cs",
@@ -100,25 +99,24 @@
               "RelativeToolTip": "src\\CustomTypes\\DTOs\\Teacher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:35:54.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T14:35:54.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Subject.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Subject.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\Subject.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Subject.cs",
               "RelativeToolTip": "src\\CustomTypes\\DTOs\\Subject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:35:37.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuHelper.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\MenuHelper.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\MenuHelper.cs",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "src\\CustomTypes\\MenuHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:33:34.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T14:33:34.156Z"
             },
             {
               "$type": "Document",
@@ -137,14 +134,14 @@
               "RelativeDocumentMoniker": "src\\Program.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADsAAAA6AAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAIAwwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T13:32:18.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\GlobalUsings.cs",
@@ -152,8 +149,7 @@
               "RelativeToolTip": "src\\CustomTypes\\GlobalUsings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:34:10.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T14:34:10.802Z"
             },
             {
               "$type": "Document",
