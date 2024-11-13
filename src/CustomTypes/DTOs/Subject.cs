@@ -2,5 +2,5 @@
 
 namespace src.CustomTypes.DTOs
 {
-    public sealed record Subject(in string name, in Teacher teacher, ICollection<Student> students);
+    public sealed record Subject(in string Name, in Teacher Teacher, ICollection<Student> Students);
 }

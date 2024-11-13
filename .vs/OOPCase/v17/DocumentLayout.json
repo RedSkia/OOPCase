@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\Marcus\\Desktop\\OOPCase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|d:\\marcus\\desktop\\oopcase\\src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|d:\\marcus\\desktop\\oopcase\\src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\menuhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\iperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\customtypes\\dtos\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|solutionrelative:src\\customtypes\\dtos\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F94505CE-910D-4086-B0A4-E680D3020D6B}|src\\src.csproj|D:\\Marcus\\Desktop\\OOPCase\\src\\src.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "IPerson.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\IPerson.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\IPerson.cs",
@@ -62,18 +62,8 @@
               "RelativeToolTip": "src\\CustomTypes\\DTOs\\IPerson.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:03:26.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "src",
-              "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\src.csproj",
-              "RelativeDocumentMoniker": "src\\src.csproj",
-              "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\src.csproj",
-              "RelativeToolTip": "src\\src.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-12T14:53:48.08Z"
+              "WhenOpened": "2024-11-12T15:03:26.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,14 +73,14 @@
               "RelativeDocumentMoniker": "src\\CustomTypes\\DataStore.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DataStore.cs",
               "RelativeToolTip": "src\\CustomTypes\\DataStore.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAuwEAAAAAOAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAACgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:48:05.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Student.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\Student.cs",
@@ -103,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Teacher.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Teacher.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\Teacher.cs",
@@ -116,54 +106,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Subject.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Subject.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\DTOs\\Subject.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\DTOs\\Subject.cs",
               "RelativeToolTip": "src\\CustomTypes\\DTOs\\Subject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:35:37.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "src\\CustomTypes\\GlobalUsings.cs",
-              "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\GlobalUsings.cs",
-              "RelativeToolTip": "src\\CustomTypes\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:34:10.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MenuHelper.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\MenuHelper.cs",
               "RelativeDocumentMoniker": "src\\CustomTypes\\MenuHelper.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\MenuHelper.cs",
               "RelativeToolTip": "src\\CustomTypes\\MenuHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T14:33:34.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
               "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:32:18.263Z"
+              "WhenOpened": "2024-11-12T13:32:18.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "src\\CustomTypes\\GlobalUsings.cs",
+              "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\CustomTypes\\GlobalUsings.cs",
+              "RelativeToolTip": "src\\CustomTypes\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:34:10.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "src",
+              "DocumentMoniker": "D:\\Marcus\\Desktop\\OOPCase\\src\\src.csproj",
+              "RelativeDocumentMoniker": "src\\src.csproj",
+              "ToolTip": "D:\\Marcus\\Desktop\\OOPCase\\src\\src.csproj",
+              "RelativeToolTip": "src\\src.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-12T14:53:48.08Z"
             }
           ]
         }
