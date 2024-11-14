@@ -51,12 +51,6 @@ namespace src.CustomTypes
         }
         private static void CreateData()
         {
-            /*
-            Henrik Vincents
-            Michael Gilbert Hansen
-            Niels Olesen
-            Peter Erik Bergmann
-            */
             IPerson[] students1 = GetRandomStudents(9);
             IPerson[] students2 = GetRandomStudents(16);
             IPerson[] students3 = GetRandomStudents(12);
