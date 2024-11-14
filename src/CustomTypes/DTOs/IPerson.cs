@@ -9,6 +9,6 @@ namespace src.CustomTypes.DTOs
     public interface IPerson
     {
         string Name { get; }
-        DateOnly Birthday { get; }
+        IBirthday Birthday { get; }
     }
 }

@@ -73,7 +73,7 @@ namespace src
             Console.WriteLine($"Total Students: {subject.Students.Count}");
             foreach (IPerson student in subject.Students.OrderBy(x => x.Name))
             {
-                if(student.Birthday <= DateOnly.FromDateTime(DateTime.Now).AddYears(-20)) Console.ForegroundColor = ConsoleColor.Red;
+                if(student.Birthday.YearAge <= 20) Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"\t{student.Name}");
                 Console.ResetColor();
             }
@@ -132,7 +132,7 @@ namespace src
                 Console.WriteLine($"Total Students: {subject.Students.Count}");
                 foreach (IPerson student in subject.Students.OrderBy(x => x.Name))
                 {
-                    if (student.Birthday <= DateOnly.FromDateTime(DateTime.Now).AddYears(-20)) Console.ForegroundColor = ConsoleColor.Red;
+                    if (student.Birthday.YearAge <= 20) Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"\t{student.Name}");
                     Console.ResetColor();
                 }

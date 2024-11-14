@@ -43,7 +43,7 @@ namespace src.CustomTypes
             .Select(name => new Student
             {
                 Name = name,
-                Birthday = new DateOnly(rand.Next(1990, DateTime.Now.Year - 10), rand.Next(1, 12), rand.Next(1, 25))
+                Birthday = new Birthday() { Date = new(rand.Next(1990, DateTime.Now.Year - 10), rand.Next(1, 12), rand.Next(1, 25)) }
             }).ToArray(); 
 
             rand.Shuffle(students);
@@ -57,12 +57,12 @@ namespace src.CustomTypes
             IPerson[] students4 = GetRandomStudents(15);
             _subjects = new List<ISubject>
             {
-                new Subject(){ Name = "Basic Programming",      Teacher = new(){ Name = "Henrik Vincents",          Birthday = new(1995, 7, 16) }, Students = students1 },
-                new Subject(){ Name = "OOP",                    Teacher = new(){ Name = "Niels Olesen",             Birthday = new(1981, 9, 4) }, Students = students3 },
-                new Subject(){ Name = "Computer Technology",    Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new(1993, 5, 11) }, Students = students2 },
-                new Subject(){ Name = "Server Security",        Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new(1999, 4, 20) }, Students = students4 },
-                new Subject(){ Name = "Database Programming",   Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new(1999, 4, 20) }, Students = students4 },
-                new Subject(){ Name = "ClientSide Programming", Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new(1993, 5, 11) }, Students = students2 },
+                new Subject(){ Name = "Basic Programming",      Teacher = new(){ Name = "Henrik Vincents",          Birthday = new Birthday() { Date = new(1995, 7, 16) } }, Students = students1 },
+                new Subject(){ Name = "OOP",                    Teacher = new(){ Name = "Niels Olesen",             Birthday = new Birthday() { Date = new(1981, 9, 4) } }, Students = students3 },
+                new Subject(){ Name = "Computer Technology",    Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new Birthday() { Date = new(1993, 5, 11) } }, Students = students2 },
+                new Subject(){ Name = "Server Security",        Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new Birthday() { Date = new(1999, 4, 20) } }, Students = students4 },
+                new Subject(){ Name = "Database Programming",   Teacher = new(){ Name = "Peter Erik Bergmann",      Birthday = new Birthday() { Date = new(1999, 4, 20) } }, Students = students4 },
+                new Subject(){ Name = "ClientSide Programming", Teacher = new(){ Name = "Michael Gilbert Hansen",   Birthday = new Birthday() { Date = new(1993, 5, 11) } }, Students = students2 },
             };
         }
         public enum SearchType : byte
