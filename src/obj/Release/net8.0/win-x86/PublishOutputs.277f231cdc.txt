@@ -1,0 +1,2 @@
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\publish\win-x86\src.pdb
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\publish\win-x86\src.exe

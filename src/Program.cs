@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
-
 
 namespace src
 {
@@ -10,8 +8,6 @@ namespace src
         private static volatile bool skipKeyRead = false;
         private static void Main(string[] args)
         {
-            //List af elev og lærer SKAL vises alfabetisk sorteret efter fornavne
-
             Console.CursorVisible = false;
             ConsoleKey loopKey = ConsoleKey.None;
             while (loopKey is not ConsoleKey.Escape)
@@ -33,7 +29,6 @@ namespace src
                     loopKey = Console.ReadKey(true).Key;
                 }
             } 
-
         }
         private static void DisplayError(in string error)
         {
@@ -82,7 +77,6 @@ namespace src
                 Console.WriteLine($"\t{student.Name}");
                 Console.ResetColor();
             }
-
         }
         private static void StudentMenu()
         {

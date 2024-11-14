@@ -1,0 +1,15 @@
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\src.exe
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\src.deps.json
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\src.runtimeconfig.json
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\src.dll
+D:\Marcus\Desktop\OOPCase\src\bin\Release\net8.0\src.pdb
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.GeneratedMSBuildEditorConfig.editorconfig
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.AssemblyInfoInputs.cache
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.AssemblyInfo.cs
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.csproj.CoreCompileInputs.cache
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.sourcelink.json
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.dll
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\refint\src.dll
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.pdb
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\src.genruntimeconfig.cache
+D:\Marcus\Desktop\OOPCase\src\obj\Release\net8.0\ref\src.dll
